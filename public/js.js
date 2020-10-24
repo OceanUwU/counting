@@ -4,6 +4,7 @@ const button = document.getElementById('button');
 
 socket.on('update', (number, lastCounter) => { //When a new number is received:
     numberDisplay.innerHTML = number; //Display the new number.
+    //document.getElementsByTagName('title')[0].innerHTML = number;
     if (socket.id.startsWith(lastCounter))
         button.setAttribute('disabled', '');
     else
