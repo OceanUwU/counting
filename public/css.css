@@ -1,0 +1,45 @@
+#root {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+#number {
+    font-size: 72px;
+    margin-bottom: 16px;
+
+    width: 100%;
+    text-align: center;
+}
+
+
+#button {
+    width: 250px;
+    height: 250px;
+    padding: 0;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    font-size: 100px;
+    color: white;
+
+    background-color: #00000000;
+    background-image: url('button.png');
+    background-size: 100%;
+    border: none;
+}
+
+#button:hover {
+    filter: brightness(1.05);
+}
+
+#button:active {
+    filter: brightness(0.9);
+}
+
+#button:disabled {
+    filter: brightness(0.5);
+}
