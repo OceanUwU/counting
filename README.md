@@ -1,5 +1,5 @@
 # counting
-https://count.flynna.uk
+https://count.ocean.lol
 a website where people count
 
 ## setup
